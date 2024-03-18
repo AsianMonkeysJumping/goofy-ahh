@@ -1,0 +1,78 @@
+.title {
+    font-size: 50px;
+    margin:0;
+    margin-top:-25px;
+    margin-left: 40px;
+    padding:0;
+    font-family: 'Times New Roman';
+    font-style: italic;
+    color: aqua;
+    
+}
+
+img, video {
+    display: block;
+    border: 5px dotted gold;
+    
+}
+
+.border {
+    border: 3px solid black;
+    padding-left: 15px;
+}
+
+p {
+    color:rgb(13, 139, 139);
+    display:inline-block;
+}
+
+.banner {
+    background-color: rgb(53, 189, 223);
+    border: 10px solid rgb(0, 81, 255);
+    padding: 5px;
+    min-height: 10px;
+    height: 120px;
+    overflow: hidden;
+}
+
+.cool {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.happy {
+    border-radius: 40%;
+    padding: 10px
+}
+
+h3 {
+    color: red;
+    text-decoration: underline;
+}
+div {
+    height: 400px;
+    min-height: 150px;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.goofy {
+    height: 150px;
+    width: 150px;
+}
+
+.number {
+    text-decoration: underline;
+    color: blue;
+}
+
+.number:hover {
+    text-decoration: underline;
+    color: lightblue;
+}
+
+.container {
+    display: flex;
+    column-gap: 15px;
+}
