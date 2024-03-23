@@ -33,6 +33,7 @@ p {
     min-height: 10px;
     height: 120px;
     overflow: hidden;
+    border-radius: 50px;
 }
 
 .cool {
@@ -75,4 +76,15 @@ div {
 .container {
     display: flex;
     column-gap: 15px;
+}
+
+.monkey {
+    align-self: right;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+    position:absolute;
+    left:1500px;
+    top: 50px;
+    border: 5px solid black;
 }
